@@ -29,7 +29,6 @@ h3 {
     font-size: 1.5rem;
 }
 
-/* Стили для параграфов */
 p {
     font-size: 1.1rem;
     margin-bottom: 15px;
@@ -54,7 +53,6 @@ nav ul li {
     margin: 0 20px;
 }
 
-/* Стили для ссылок */
 a {
     color: #d64c78;
     text-decoration: none;
@@ -103,12 +101,9 @@ img {
     max-width: 80%;
 }
 
-/* Clearfix для обработки float */
 .clear {
     clear: both;
 }
-
-/* Стили для секций */
 section {
     padding: 20px;
     margin: 20px 0;
@@ -127,8 +122,4 @@ footer {
 
 footer a {
     color: #f8f5f0;
-}
-
-footer a:hover {
-    color: #d64c78;
 }
