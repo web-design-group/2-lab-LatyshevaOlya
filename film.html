@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фильмы Уэса Андерсона</title>
+    <!-- Подключение normalize.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Подключение reset.css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <!-- Подключение внешнего CSS файла -->
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .film-card {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 30px;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .film-title {
+            color: #d64c78;
+            border-bottom: 2px dotted #d64c78;
+            padding-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Фильмография Уэса Андерсона</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="films.html">Фильмы</a></li>
+                <li><a href="#early">Ранние работы</a></li>
+                <li><a href="#recent">Последние фильмы</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="early">
+            <h2>Ранние работы</h2>
+            
+            <div class="film-card">
+                <h3 class="film-title">Бутылочная ракета (1996)</h3>
+                <img src="https://i.pinimg.com/550x/fb/68/ee/fb68eee8ebdcb66224fd16332aa605a4.jpg" alt="Постер фильма Бутылочная ракета" class="float-left">
+                <p>Дебютный полнометражный фильм Андерсона, рассказывающий о трёх друзьях, которые планируют серию ограблений. Фильм не имел коммерческого успеха, но получил признание критиков.</p>
+                <div class="clear"></div>
+            </div>
+            
+            <div class="film-card">
+                <h3 class="film-title">Академия Рашмор (1998)</h3>
+                <img src="https://m.media-amazon.com/images/I/812Z1DivkmL.jpg" alt="Постер фильма Академия Рашмор" class="float-right">
+                <p>Комедийная драма о талантливом, но проблемном студенте, который соревнуется с бизнесменом за внимание учительницы. Фильм укрепил репутацию Андерсона как уникального режиссёра.</p>
+                <div class="clear"></div>
+            </div>
+        </section>
+
+        <section id="recent">
+            <h2>Последние фильмы</h2>
+            
+            <div class="film-card">
+                <h3 class="film-title">Отель «Гранд Будапешт» (2014)</h3>
+                <img src="https://m.media-amazon.com/images/M/MV5BMzM5NjUxOTEyMl5BMl5BanBnXkFtZTgwNjEyMDM0MDE@._V1_FMjpg_UX1000_.jpg" alt="Постер фильма Отель Гранд Будапешт" class="float-left">
+                <p>Комедийный драматический фильм, действие которого происходит в вымышленной европейской стране между двумя мировыми войнами. Фильм получил четыре премии «Оскар» и стал самым кассовым проектом Андерсона.</p>
+                <div class="clear"></div>
+            </div>
+            
+            <div class="film-card">
+                <h3 class="film-title">Французский вестник (2021)</h3>
+                <img src="https://ru-images-s.kinorium.com/movie/1080/1996854.jpg?1688981450" alt="Постер фильма Французский вестник" class="float-right">
+                <p>Комедийно-драматический киноальманах, стилизованный под выпуск вымышленного французского журнала. Фильм демонстрирует кульминацию визуального стиля Андерсона с тщательно продуманными симметричными кадрами.</p>
+                <div class="clear"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Латышева Оля</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,135 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f8f5f0;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #d64c78;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #f0e6ff;
+    border-bottom: 3px solid #d64c78;
+}
+
+h2 {
+    color: #5a8e9e;
+    font-size: 2rem;
+    border-left: 5px solid #5a8e9e;
+    padding-left: 15px;
+    margin-top: 40px;
+}
+
+h3 {
+    color: #d64c78;
+    font-size: 1.5rem;
+}
+
+/* Стили для параграфов */
+p {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+nav {
+    background-color: #5a8e9e;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+/* Стили для ссылок */
+a {
+    color: #d64c78;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #5a8e9e;
+    text-decoration: underline;
+}
+
+nav a {
+    color: white;
+    padding: 5px 10px;
+    border-radius: 3px;
+}
+
+nav a:hover {
+    background-color: #d64c78;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+}
+
+.float-left {
+    float: left;
+    margin: 0 20px 20px 0;
+    max-width: 300px;
+}
+
+.float-right {
+    float: right;
+    margin: 0 0 20px 20px;
+    max-width: 300px;
+}
+
+.center-image {
+    display: block;
+    margin: 30px auto;
+    max-width: 80%;
+}
+
+/* Clearfix для обработки float */
+.clear {
+    clear: both;
+}
+
+/* Стили для секций */
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer a {
+    color: #f8f5f0;
+}
+
+footer a:hover {
+    color: #d64c78;
+}
